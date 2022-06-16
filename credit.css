@@ -16,10 +16,13 @@ body {
 
 .details{
   background-color:rgb(98, 149, 226);
-  height: 100%;
+  height: auto !important;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
 }
 
 hr {
+  
   background-color:  #0f182b ;
   height:20px;
   width:50%;
@@ -61,13 +64,14 @@ img {
     width: 75px;
 }
 
-
+/* the whole container */
 .swiper-container {
   width: 100%;
   padding-top: 100px;
   padding-bottom:50px;
+  
 }
-
+/* top image */
 .imgBx {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -76,9 +80,7 @@ img {
   /* border: 5px solid rgb(138, 151, 187) */
 }
 
-
-
-
+/* the whole slide */
 .swiper-slide {
   background-position: center;
   background-size: cover;
