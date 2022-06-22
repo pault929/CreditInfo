@@ -2,15 +2,16 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     line-height: 1;
-    background: -webkit-linear-gradient(left, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
-	  background: -moz-linear-gradient(to right, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
+    background-color: black !important;
+    /* background: -webkit-linear-gradient(left, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
+	  background: -moz-linear-gradient(to right, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%); */
 }
 
 .jumbotron {
   text-align: center;
-  text-shadow: 15px 15px 2px rgb(22, 23, 27);
-  background: -webkit-linear-gradient(left, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
-  background: -moz-linear-gradient(to right, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
+  /* text-shadow: 15px 15px 2px rgb(205, 212, 240); */
+  /* background: -webkit-linear-gradient(left, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
+  background: -moz-linear-gradient(to right, #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%); */
   color: rgb(235, 43, 43);
 }
 
